@@ -1,0 +1,120 @@
+/* Import roboto font family */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")
+  /* Reset Styles */ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 0 100px;
+}
+/* Navigation Bar Styles */
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  padding-left: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #505f98;
+}
+
+.nav-links li {
+  list-style-type: none;
+}
+.button {
+  width: 160px;
+  height: 26px;
+  background-color: #111b47;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+/* the vector background image */
+.background-vector {
+  width: 70%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  margin-right: px;
+}
+/* styling article */
+article {
+  width: 350px;
+  position: relative;
+  z-index: 1;
+  position: absolute;
+  top: 200px;
+}
+.article-heading {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+}
+.article-content {
+  color: #505f98;
+  font-size: 12px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.button2 {
+  margin-left: 30px;
+  border: 2px solid #111b47;
+  background-color: white;
+  width: 120px;
+  font-size: 12px;
+  height: 20px;
+}
+.button1 {
+  font-size: 12px;
+  width: 120px;
+  height: 20px;
+}
+/* stlying the second container */
+.container2 {
+  position: relative;
+  top: 500px;
+}
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 100%;
+  }
+
+  .background-vector {
+    width: 60%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    margin-right: px;
+  }
+  .container2 {
+    position: relative;
+    top: 700px;
+  }
+}

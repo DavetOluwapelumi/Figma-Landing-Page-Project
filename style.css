@@ -100,6 +100,179 @@ article {
   position: relative;
   top: 500px;
 }
+/* stlying the card-info */
+.card-infos {
+  position: absolute;
+  top: 450px;
+  display: flex;
+  gap: 20px;
+  z-index: 1;
+}
+.card-info {
+  max-width: 180px;
+  font-size: 10px;
+  line-height: 1.2;
+  color: #111b47;
+}
+.card-info img {
+  max-width: 25px;
+}
+/* Styling the second background vector */
+.vector {
+  width: 60%;
+  position: absolute;
+  left: 47%;
+  top: 150px;
+  z-index: 0;
+}
+/* styling container3 */
+.container3 {
+  position: relative;
+  top: 1200px;
+  display: flex;
+  gap: 20px;
+}
+.container3 img {
+  width: 50%;
+}
+.container3 div {
+  font-size: 12px;
+  line-height: 1.3;
+  width: 300px;
+  color: #505f98;
+}
+.article-heading {
+  color: #111b47;
+}
+/* styling container4 */
+.container4 {
+  position: relative;
+  top: 1300px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.container4 img {
+  width: 50%;
+}
+.container4 div {
+  font-size: 12px;
+  line-height: 1.3;
+  width: 300px;
+  color: #505f98;
+}
+.article-heading {
+  color: #111b47;
+}
+/* styling container5 */
+.container5 {
+  position: relative;
+  top: 1400px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.container5 img {
+  width: 50%;
+}
+.container5 div {
+  font-size: 12px;
+  line-height: 1.3;
+  width: 300px;
+  color: #505f98;
+}
+.container5 div p {
+  margin-bottom: 50px;
+}
+.article-heading {
+  color: #111b47;
+}
+
+/* styling container 6 */
+
+.container6img {
+  position: absolute;
+  top: 2300px;
+  width: 100%;
+  z-index: 0;
+}
+.container6content {
+  position: absolute;
+  top: 2400px;
+  left: 25%;
+  right: 25%;
+  text-align: center;
+  z-index: 1;
+  width: 500px;
+}
+.container6 div h2 {
+  font-size: 35px;
+}
+.container6 div .price {
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+.pricedesc {
+  font-size: 12px;
+
+  margin-bottom: 40px;
+}
+.pricedesc2 {
+  color: gray;
+}
+.content6text {
+  font-size: 15px;
+  color: #505f98;
+  line-height: 1.3;
+}
+/* styling footer */
+
+footer {
+  position: absolute;
+  top: 2650px;
+  width: 100%;
+  z-index: 1;
+}
+footer .Rectangle11 {
+  position: absolute;
+  top: 170px;
+  width: 100%;
+  height: 150px;
+  z-index: -1;
+}
+.flex {
+  position: relative;
+  top: 200px;
+}
+.firstflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+}
+.secondflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+}
+hr {
+  color: rgb(231, 231, 231);
+}
+.secondflex nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 200px;
+  padding-left: 0;
+  color: #111b47;
+}
+
+.secondflex nav ul li a {
+  text-decoration: none;
+  color: #111b47;
+}
 @media screen and (min-width: 1024px) {
   body {
     max-width: 100%;
@@ -113,8 +286,90 @@ article {
     z-index: 0;
     margin-right: px;
   }
+  /* styling container 1 article */
+  .container article {
+    width: 350px;
+    position: relative;
+    z-index: 1;
+    position: absolute;
+    top: 270px;
+  }
+  /* styling container 2 */
   .container2 {
     position: relative;
     top: 700px;
+  }
+  /* styling the article of container 2 */
+  .container2 article {
+    width: 350px;
+    position: relative;
+    z-index: 1;
+    position: absolute;
+    top: 430px;
+  }
+  .card-infos {
+    position: absolute;
+    top: 650px;
+    display: flex;
+    gap: 20px;
+    z-index: 1;
+  }
+  .vector {
+    width: 60%;
+    position: absolute;
+    left: 47%;
+    top: 210px;
+    z-index: 0;
+  }
+  .container3 {
+    position: relative;
+    top: 1800px;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+  }
+  .container4 {
+    position: relative;
+    top: 1900px;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+  }
+  .container5 {
+    position: relative;
+    top: 2000px;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+  }
+  .container6img {
+    position: absolute;
+    top: 3470px;
+    width: 100%;
+    z-index: 0;
+  }
+  .container6content {
+    position: absolute;
+    top: 3600px;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    z-index: 1;
+    width: 50%;
+  }
+  footer {
+    position: absolute;
+    top: 3850px;
+    width: 100%;
+    z-index: 1;
+  }
+}
+@media screen and (min-width: 1270px) {
+  .container6img {
+    position: absolute;
+    top: 3470px;
+    width: 100%;
+    height: 700px;
+    z-index: 0;
   }
 }
